@@ -1,0 +1,38 @@
+<!-- By chatGPT -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+    <!-- Yellow Circle -->
+    <circle cx="400" cy="300" r="150" fill="gold" stroke="black" stroke-width="3" />
+    <!-- Blue Circle -->
+    <circle cx="800" cy="300" r="150" fill="deepskyblue" stroke="black" stroke-width="3" />
+
+    <!-- Yellow Circle Face -->
+    <line x1="470" y1="220" x2="490" y2="190" stroke="black" stroke-width="3" />
+    <line x1="490" y1="190" x2="510" y2="220" stroke="black" stroke-width="3" />
+    <circle cx="350" cy="260" r="10" fill="black" />
+    <circle cx="450" cy="260" r="10" fill="black" />
+    <path d="M350 320 Q400 380 450 320" stroke="black" stroke-width="3" fill="none" />
+
+    <!-- Blue Circle Face -->
+    <line x1="790" y1="210" x2="810" y2="170" stroke="black" stroke-width="3" />
+    <line x1="810" y1="170" x2="830" y2="210" stroke="black" stroke-width="3" />
+    <circle cx="750" cy="260" r="10" fill="black" />
+    <circle cx="850" cy="260" r="10" fill="black" />
+    <path d="M750 320 Q800 380 850 320" stroke="black" stroke-width="3" fill="none" />
+
+    <!-- Arms and Hands -->
+    <line x1="530" y1="300" x2="670" y2="300" stroke="black" stroke-width="3" />
+    <line x1="530" y1="300" x2="515" y2="285" stroke="black" stroke-width="3" />
+    <line x1="530" y1="300" x2="515" y2="315" stroke="black" stroke-width="3" />
+    <line x1="670" y1="300" x2="685" y2="285" stroke="black" stroke-width="3" />
+    <line x1="670" y1="300" x2="685" y2="315" stroke="black" stroke-width="3" />
+
+    <!-- Legs and Feet -->
+    <line x1="370" y1="450" x2="370" y2="500" stroke="black" stroke-width="3" />
+    <line x1="370" y1="500" x2="390" y2="500" stroke="black" stroke-width="3" />
+    <line x1="430" y1="450" x2="430" y2="500" stroke="black" stroke-width="3" />
+    <line x1="430" y1="500" x2="450" y2="500" stroke="black" stroke-width="3" />
+    <line x1="770" y1="450" x2="770" y2="500" stroke="black" stroke-width="3" />
+    <line x1="770" y1="500" x2="790" y2="500" stroke="black" stroke-width="3" />
+    <line x1="830" y1="450" x2="830" y2="500" stroke="black" stroke-width="3" />
+    <line x1="830" y1="500" x2="850" y2="500" stroke="black" stroke-width="3" />
+</svg>

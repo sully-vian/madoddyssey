@@ -1,3 +1,4 @@
+
 import { LivingEntity } from "./livingEntity.js";
 
 export class Butterfly extends LivingEntity {
