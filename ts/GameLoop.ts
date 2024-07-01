@@ -1,6 +1,6 @@
-import { drawGrid } from "./grid";
-import { ctx, canvas } from "./canvasSetup";
 import { GameState } from "./GameState.ts";
+import { canvas, ctx } from "./canvasSetup";
+import { drawGrid } from "./grid";
 
 export class GameLoop {
 
