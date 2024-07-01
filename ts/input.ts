@@ -1,6 +1,6 @@
-import { gameState } from './main';
+import { gameState } from "./main.js";
 
-window.addEventListener('keydown', function (event) {
+window.addEventListener("keydown", function (event: KeyboardEvent) {
     if (gameState.player.dead) return;
 
     switch (event.code) {
@@ -22,7 +22,7 @@ window.addEventListener('keydown', function (event) {
     }
 });
 
-window.addEventListener('keyup', function (event) {
+window.addEventListener("keyup", function (event: KeyboardEvent) {
     switch (event.code) {
         case "Enter":
             // do nothing

@@ -1,5 +1,5 @@
-import { canvas } from './canvasSetup.ts';
-import { Player } from './objects/Player.ts';
+import { canvas } from "./canvasSetup.js";
+import { Player } from "./objects/Player.js";
 
 export class Camera {
 

@@ -1,7 +1,7 @@
 
-import { Camera } from "../Camera";
-import { Level } from "../Level";
-import { LivingEntity } from "./LivingEntity";
+import { Camera } from "../Camera.js";
+import { Level } from "../Level.js";
+import { LivingEntity } from "./LivingEntity.js";
 
 export class Butterfly extends LivingEntity {
 
@@ -10,11 +10,11 @@ export class Butterfly extends LivingEntity {
     public image: HTMLImageElement;
     public frameIndex: number;
     public frameCount: number;
-    public frameHeight: number;
+    public frameHeight: number = 0; // val par défaut qui change juste après load de l"img
     public time: number;
     public amplitude: number;
 
-    constructor(x, y) {
+    constructor(x: number, y: number) {
         super(x, y, 50, 50, "orange");
         this.energy = 10;
         this.collected = false;

@@ -1,37 +1,25 @@
-import { GameState } from "./GameState.js";
 import { canvas, ctx } from "./canvasSetup.js";
 import { drawGrid } from "./grid.js";
-
 export class GameLoop {
-
-    public gameState: GameState;
-
-    constructor(gameState: GameState) {
+    constructor(gameState) {
         this.gameState = gameState;
         this.gameLoop = this.gameLoop.bind(this);
     }
-
     gameLoop() {
         if (this.gameState.player.dead) {
-            this.renderDeathScreen()
+            this.renderDeathScreen();
             return;
         }
-
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-
         drawGrid(ctx, 50);
-
         this.gameState.update();
-
         requestAnimationFrame(this.gameLoop);
     }
-
     start() {
         this.gameState.player.middleX = this.gameState.level.platforms[0].middleX;
         this.gameState.player.bottom = this.gameState.level.platforms[0].y - 100;
         this.gameLoop();
     }
-
     renderDeathScreen() {
         ctx.globalAlpha = 0.9;
         ctx.fillStyle = "black";
