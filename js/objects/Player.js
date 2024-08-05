@@ -1,4 +1,5 @@
 import { PlayerEnemyCollisionHandler } from "../PlayerEnemyCollisionHandler.js";
+import { basePath } from "../main.js";
 import { Bar } from "./Bar.js";
 import { LivingEntity } from "./LivingEntity.js";
 const JUMP_SPEED = 11;
@@ -13,10 +14,11 @@ export class Player extends LivingEntity {
         this.faceImage = new Image();
         this.leftImage = new Image();
         this.rightImage = new Image();
-        this.faceImage.src = "/assets/mado-face.png";
+        this.faceImage.src = basePath + "assets/mado-face.png";
         this.leftImage.src = "/assets/mado-left.png";
         this.rightImage.src = "/assets/mado-right.png";
         console.log(this.faceImage.src);
+        console.log(this.leftImage.src);
         this.energyBar = new Bar(25, 25, 200, 50, 0, 100, "black", "orange");
     }
     update(gravity, level) {
