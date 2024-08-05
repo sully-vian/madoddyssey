@@ -1,0 +1,68 @@
+.
+├── 20240604_203713.jpg
+├── 20240604_203713-removebg.png
+├── 20240604_210707.jpg
+├── 20240605_174937.jpg
+├── assets
+│   ├── butterfly.gif
+│   ├── butterfly_spritesheet.png
+│   ├── mado-face.png
+│   ├── mado-left.png
+│   └── mado-right.png
+├── banc.jpg
+├── banc.png
+├── foo.txt
+├── index.html
+├── js
+│   ├── Camera.js
+│   ├── canvasSetup.js
+│   ├── GameLoop.js
+│   ├── GameState.js
+│   ├── grid.js
+│   ├── input.js
+│   ├── Level.js
+│   ├── main.js
+│   ├── objects
+│   │   ├── Bar.js
+│   │   ├── Butterfly.js
+│   │   ├── Cloud.js
+│   │   ├── Enemy.js
+│   │   ├── Entity.js
+│   │   ├── LivingEntity.js
+│   │   ├── Platform.js
+│   │   └── Player.js
+│   ├── PlayerEnemyCollisionHandler.js
+│   └── random.js
+├── mado
+│   ├── mado.css
+│   ├── mado.html
+│   └── madovian.svg
+├── MadOdysseyViannEpic (1).stl
+├── MadOdysseyViannEpic.stl
+├── madovian.png
+├── name.txt
+├── style.css
+├── tree.txt
+├── ts
+│   ├── Camera.ts
+│   ├── canvasSetup.ts
+│   ├── GameLoop.ts
+│   ├── GameState.ts
+│   ├── grid.ts
+│   ├── input.ts
+│   ├── Level.ts
+│   ├── main.ts
+│   ├── objects
+│   │   ├── Bar.ts
+│   │   ├── Butterfly.ts
+│   │   ├── Cloud.ts
+│   │   ├── Enemy.ts
+│   │   ├── Entity.ts
+│   │   ├── LivingEntity.ts
+│   │   ├── Platform.ts
+│   │   └── Player.ts
+│   ├── PlayerEnemyCollisionHandler.ts
+│   └── random.ts
+└── tsconfig.json
+
+7 directories, 59 files

@@ -32,7 +32,6 @@ export class LivingEntity extends Entity {
         if (this.y > canvas.height + 2000
         ) {
             this.die();
-            console.log("Dead");
         }
     }
 

@@ -41,7 +41,6 @@ export class GameLoop {
         const text = "you died.";
         const textWidth = ctx.measureText(text).width;
         const textHeight = 100;
-        console.log(textWidth, textHeight);
         const textX = canvas.width / 2 - textWidth / 2;
         const textY = canvas.height / 2 - textHeight / 2;
         ctx.fillText(text, textX, textY);

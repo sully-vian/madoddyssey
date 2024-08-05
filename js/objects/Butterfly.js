@@ -6,7 +6,7 @@ export class Butterfly extends LivingEntity {
         this.energy = 10;
         this.collected = false;
         this.image = new Image();
-        this.image.src = "../../assets/butterfly_spritesheet.png";
+        this.image.src = "/assets/butterfly_spritesheet.png";
         this.frameIndex = 0;
         this.frameCount = 84; // number of frames
         this.image.onload = () => {
