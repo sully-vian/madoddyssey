@@ -1,6 +1,7 @@
 
 import { Camera } from "../Camera.js";
 import { Level } from "../Level.js";
+import { basePath } from "../main.js";
 import { LivingEntity } from "./LivingEntity.js";
 
 export class Butterfly extends LivingEntity {
@@ -20,7 +21,7 @@ export class Butterfly extends LivingEntity {
         this.collected = false;
 
         this.image = new Image();
-        this.image.src = "/assets/butterfly_spritesheet.png";
+        this.image.src = basePath + "assets/butterfly_spritesheet.png";
         this.frameIndex = 0;
         this.frameCount = 84; // number of frames
         this.image.onload = () => {
