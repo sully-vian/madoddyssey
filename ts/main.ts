@@ -2,6 +2,7 @@ import { GameLoop } from "./GameLoop.js";
 import { GameState } from "./GameState.js";
 import "./input.js";
 
+console.log(window.location.pathname);
 export const basePath = window.location.pathname.includes("/madoddyssey/") ? "/madoddyssey/" : "/";
 
 export const gameState = new GameState();
