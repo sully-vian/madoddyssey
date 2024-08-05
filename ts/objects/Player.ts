@@ -34,6 +34,8 @@ export class Player extends LivingEntity {
         this.leftImage.src = "/assets/mado-left.png";
         this.rightImage.src = "/assets/mado-right.png";
 
+        console.log(this.faceImage.src);
+
         this.energyBar = new Bar(25, 25, 200, 50, 0, 100, "black", "orange");
     }
 
