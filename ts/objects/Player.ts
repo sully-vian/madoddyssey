@@ -31,8 +31,8 @@ export class Player extends LivingEntity {
         this.leftImage = new Image();
         this.rightImage = new Image();
         this.faceImage.src = basePath + "assets/mado-face.png";
-        this.leftImage.src = "/assets/mado-left.png";
-        this.rightImage.src = "/assets/mado-right.png";
+        this.leftImage.src = basePath + "assets/mado-left.png";
+        this.rightImage.src = basePath + "assets/mado-right.png";
 
         console.log(this.faceImage.src);
         console.log(this.leftImage.src);
