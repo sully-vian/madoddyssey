@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+
+    <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="black" stroke-width="10" />
+
+    <rect class="mado" x="250" y="250" height="500" width="500" rx="500" ry="500" fill="red" />
+
+    <g class="eyes">
+        <rect class="eye eye-left" x="430" y="410" height="50" width="18" rx="10" ry="10" fill="orange"
+            transform="rotate(-5 430 410)" />
+        <rect class="eye eye-left" x="490" y="400" height="50" width="18" rx="10" ry="10" fill="orange"
+            transform="rotate(-5 490 400)" />
+    </g>
+
+    <g class="smile">
+        <rect class="dimple dimple-left" />
+        <rect class="dimple dimple-right" />
+    </g>
+
+    <g class="legs">
+        <rect class="leg leg-left" />
+        <rect class="leg leg-right" />
+        <rect class="foot foot-left" />
+        <rect class="foot foot-right" />
+    </g>
+
+    <g class="arm arm-left">
+        <rect class="finger finger-middle" />
+        <rect class="finger finger-1" />
+        <rect class="finger finger-2" />
+    </g>
+
+    <g class="arm arm-right">
+        <rect class="finger finger-middle" />
+        <rect class="finger finger-1" />
+        <rect class="finger finger-2" />
+    </g>
+
+    <rect class="drop drop-1" />
+    <rect class="drop drop-2" />
+    <rect class="drop drop-3" />
+</svg>

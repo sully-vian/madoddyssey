@@ -29,6 +29,7 @@ body {
     aspect-ratio: 1/1;
     border-radius: 50%;
     border: var(--border-pen);
+    /* opacity: 0.5; */
 }
 
 .eyes {
@@ -222,4 +223,8 @@ body {
     border-bottom: 0;
     border-top-right-radius: 50%;
     transform: rotate(30deg) scale(0.7);
+}
+
+.madoSVG {
+    opacity: 1;
 }

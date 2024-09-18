@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background circle -->
+  <defs>
+    <linearGradient id="mado-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#60c0c0;" />
+      <stop offset="50%" style="stop-color:#309090;" />
+      <stop offset="100%" style="stop-color:#006060;" />
+    </linearGradient>
+  </defs>
+  <circle cx="250" cy="250" r="200" fill="url(#mado-gradient)" stroke="#0f0f0f" stroke-width="7" />
+
+  <!-- Eyes -->
+  <ellipse cx="170" cy="150" rx="20" ry="45" fill="#0f0f0f" />
+  <ellipse cx="330" cy="150" rx="20" ry="45" fill="#0f0f0f" />
+
+  <!-- Smile -->
+  <path d="M170 280 Q250 350 330 280" fill="transparent" stroke="#0f0f0f" stroke-width="7" stroke-linecap="round" />
+
+  <!-- Dimples -->
+  <ellipse cx="120" cy="280" rx="15" ry="5" fill="#0f0f0f" />
+  <ellipse cx="380" cy="280" rx="15" ry="5" fill="#0f0f0f" />
+
+  <!-- Legs -->
+  <rect x="210" y="400" width="20" height="80" fill="#006060" stroke="#0f0f0f" stroke-width="7" />
+  <rect x="270" y="400" width="20" height="80" fill="#006060" stroke="#0f0f0f" stroke-width="7" />
+  <ellipse cx="220" cy="480" rx="25" ry="20" fill="#006060" stroke="#0f0f0f" stroke-width="7" />
+  <ellipse cx="280" cy="480" rx="25" ry="20" fill="#006060" stroke="#0f0f0f" stroke-width="7" />
+
+  <!-- Arms -->
+  <rect x="100" y="250" width="15" height="70" transform="rotate(45 100 250)" fill="#298989" stroke="#0f0f0f"
+    stroke-width="7" />
+  <rect x="385" y="290" width="15" height="70" transform="rotate(-45 385 290)" fill="#248484" stroke="#0f0f0f"
+    stroke-width="7" />
+
+  <!-- Drops -->
+  <path d="M200 50 Q195 80 220 50" fill="#309090" />
+  <path d="M175 60 Q170 90 195 60" fill="#309090" />
+  <path d="M225 70 Q220 100 245 70" fill="#309090" />
+</svg>

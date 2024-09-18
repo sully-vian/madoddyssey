@@ -1,5 +1,6 @@
 {
     "search.exclude": {
         "js/**/*.js": true,
-    }
+    },
+    "svg.preview.background": "transparent"
 }

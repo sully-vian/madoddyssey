@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Mado Face (Main Circle) -->
+  <g transform="translate(150, 100)">
+    <rect width="200" height="200" rx="100" ry="100" fill="url(#mado-gradient)" stroke="#0f0f0f" stroke-width="7" />
+    <!-- Eyes -->
+    <g transform="translate(70, 60) rotate(-5)">
+      <rect width="20" height="45" rx="10" ry="10" fill="#0f0f0f" />
+      <rect x="60" width="20" height="45" rx="10" ry="10" fill="#0f0f0f" />
+    </g>
+    <!-- Smile -->
+    <g transform="translate(50, 110) rotate(-10)">
+      <rect width="100" height="50" rx="50" ry="100" fill="transparent" stroke="#0f0f0f" stroke-width="7" />
+    </g>
+    <!-- Dimples -->
+    <rect x="40" y="125" width="30" height="10" fill="#0f0f0f" />
+    <rect x="130" y="125" width="30" height="10" fill="#0f0f0f" />
+  </g>
+
+  <!-- Legs -->
+  <g transform="translate(200, 300)">
+    <rect width="30" height="100" fill="#006060" stroke="#0f0f0f" stroke-width="7" />
+    <rect x="40" width="30" height="100" fill="#006060" stroke="#0f0f0f" stroke-width="7" />
+    <!-- Feet -->
+    <rect x="10" y="80" width="50" height="30" rx="15" ry="15" fill="#006060" stroke="#0f0f0f" stroke-width="7" />
+  </g>
+
+  <!-- Arms -->
+  <g transform="translate(90, 180) rotate(45)">
+    <rect width="15" height="70" fill="#298989" stroke="#0f0f0f" stroke-width="7" />
+    <rect y="60" width="15" height="25" fill="#298989" stroke="#0f0f0f" stroke-width="7" />
+  </g>
+  <g transform="translate(350, 220) rotate(-45)">
+    <rect width="15" height="70" fill="#248484" stroke="#0f0f0f" stroke-width="7" />
+    <rect y="60" width="15" height="25" fill="#248484" stroke="#0f0f0f" stroke-width="7" />
+  </g>
+
+  <!-- Drops -->
+  <rect x="220" y="50" width="10" height="25" rx="5" ry="12.5" fill="#309090" />
+  <rect x="250" y="50" width="10" height="25" rx="5" ry="12.5" fill="#309090" />
+  <rect x="280" y="50" width="10" height="25" rx="5" ry="12.5" fill="#309090" />
+
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="mado-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#60c0c0;" />
+      <stop offset="50%" style="stop-color:#309090;" />
+      <stop offset="100%" style="stop-color:#006060;" />
+    </linearGradient>
+  </defs>
+</svg>
